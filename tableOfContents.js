@@ -12,8 +12,9 @@ chapter7 = " <br/> <br/> <a href='7dogbite.html' class='tocLinks'> 7. The Dog Bi
 chapter8 = " <br/> <br/> <a href='8liars.html' class='tocLinks'> 8. The Fablers </a>";
 chapter9 = " <br/> <br/> <a href='9lost.html' class='tocLinks'> 9. Lost </a>";
 chapter10 = " <br/> <br/> <a href='10kickedout.html' class='tocLinks'> 10. Kicked Out Of Home </a>";
-
+chapter11 = " <br/> <br/> <a href='11fight.html' class='tocLinks'> 11. The Big Brawl </a>";
+chapter12 = " <br/> <br/> <a href='12rotteneggs.html' class='tocLinks'> 12. The Rotten Eggs Question </a>";
 function toc(){
-  tableDiv.innerHTML=Home+chapter1+chapter2+chapter3+chapter4+chapter5+chapter6+chapter7+chapter8+chapter9+chapter10 ;}
+  tableDiv.innerHTML=Home+chapter1+chapter2+chapter3+chapter4+chapter5+chapter6+chapter7+chapter8+chapter9+chapter10 +chapter11+chapter12 ;}
 
 toc();
